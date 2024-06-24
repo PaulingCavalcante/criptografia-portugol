@@ -26,10 +26,7 @@ programa
 
 	  numero = txt.numero_caracteres(string)
 		para(inteiro i = 0, j = 0; i < numero; j++){
-	  	se(j > 25){
-	  		cod += txt.obter_caracter(string, i)
-	  		j = 0
-	  	}
+	  	se(j > 25) j = 0
 	  	se(txt.obter_caracter(string, i) == alfa[j]){
 	  		indice = j + 13
 	  		se(indice > 25) indice = indice - 26
@@ -44,6 +41,10 @@ programa
 	  		i++
 	  		j=0
 	  	}
+	  	senao se(j == 25){
+	  		cod += txt.obter_caracter(string, i)
+	  		i++
+	  	}
 	  }
 		retorne cod
 	}
@@ -57,7 +58,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 927; 
+ * @POSICAO-CURSOR = 874; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
