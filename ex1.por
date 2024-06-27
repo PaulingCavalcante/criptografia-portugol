@@ -10,7 +10,7 @@ programa
 		
 		escreva("Olá! Seja bem vindo  algoritmo codificaRot13!\n\n")
 
-		escreva("Digite a palavra que deseja codificar: ")
+		escreva("Digite a palavra/frase que deseja codificar: ")
 		leia(texto)
 
 		cod = codificaRot13(texto)
@@ -32,14 +32,14 @@ programa
 	  		se(indice > 25) indice = indice - 26
 	  		cod += alfa[indice]
 	  		i++
-	  		j=0
+	  		j=-1
 	  	}
 	  	senao se(txt.obter_caracter(string, i) == ALFA[j]){
 	  		indice = j + 13
 	  		se(indice > 25) indice = indice - 26
 	  		cod += ALFA[indice]
 	  		i++
-	  		j=0
+	  		j=-1
 	  	}
 	  	senao se(j == 25){
 	  		cod += txt.obter_caracter(string, i)
@@ -58,7 +58,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 874; 
+ * @POSICAO-CURSOR = 237; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
