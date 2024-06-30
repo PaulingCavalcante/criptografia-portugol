@@ -7,7 +7,7 @@ programa
 	{
 		cadeia string
 		caracter teste
-		
+
 		escreva("Olá! Seja bem vindo  algoritmo das pontas de criptografia!\n\n")
 
 		escreva("Digite a palavra que deseja codificar: ")
@@ -27,7 +27,7 @@ programa
 			}
 				senao se(teste == 'n' ou teste == 'N') pare
 		}
-		enquanto(verdadeiro){	
+		enquanto(verdadeiro){
 			escreva("Dejesa codificar outra palavra? s/n -> ")
 			leia(teste)
 
@@ -86,7 +86,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 261; 
+ * @POSICAO-CURSOR = 69; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
